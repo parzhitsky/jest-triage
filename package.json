@@ -13,5 +13,8 @@
   "bugs": {
     "url": "https://github.com/parzhitsky/jest-enzyme-webpack-triage/issues"
   },
-  "homepage": "https://github.com/parzhitsky/jest-enzyme-webpack-triage#readme"
+  "homepage": "https://github.com/parzhitsky/jest-enzyme-webpack-triage#readme",
+  "devDependencies": {
+    "jest": "25.1.0"
+  }
 }
