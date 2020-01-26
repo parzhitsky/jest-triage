@@ -15,6 +15,7 @@
   },
   "homepage": "https://github.com/parzhitsky/jest-enzyme-webpack-triage#readme",
   "devDependencies": {
+    "@types/jest": "24.9.1",
     "jest": "25.1.0"
   }
 }
