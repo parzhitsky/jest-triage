@@ -1,0 +1,17 @@
+{
+  "name": "jest-enzyme-webpack-triage",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "github:parzhitsky/jest-enzyme-webpack-triage",
+  "author": "Dima Parzhitsky <parzhitsky@gmail.com>",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/parzhitsky/jest-enzyme-webpack-triage/issues"
+  },
+  "homepage": "https://github.com/parzhitsky/jest-enzyme-webpack-triage#readme"
+}
