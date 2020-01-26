@@ -1,7 +1,13 @@
 {
 	"compilerOptions": {
+		"allowJs": true,
 		"checkJs": true,
 		"noEmit": true,
+		"target": "es2015",
+		"module": "CommonJS",
+		"jsx": "react",
+		"sourceMap": true,
+		"esModuleInterop": true,
 
 		"strict": true,
 		"noUnusedLocals": true,
