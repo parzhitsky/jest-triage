@@ -1,5 +1,5 @@
 {
-  "name": "jest-enzyme-webpack-triage",
+  "name": "jest-triage",
   "version": "0.0.1",
   "description": "",
   "main": "src/index.js",
@@ -8,13 +8,13 @@
     "test": "jest",
     "start": "npm test"
   },
-  "repository": "github:parzhitsky/jest-enzyme-webpack-triage",
+  "repository": "github:parzhitsky/jest-triage",
   "author": "Dima Parzhitsky <parzhitsky@gmail.com>",
   "license": "",
   "bugs": {
-    "url": "https://github.com/parzhitsky/jest-enzyme-webpack-triage/issues"
+    "url": "https://github.com/parzhitsky/jest-triage/issues"
   },
-  "homepage": "https://github.com/parzhitsky/jest-enzyme-webpack-triage#readme",
+  "homepage": "https://github.com/parzhitsky/jest-triage#readme",
   "devDependencies": {
     "@types/jest": "24.9.1",
     "@types/whatwg-fetch": "0.0.33",
