@@ -2,5 +2,9 @@
 	"compilerOptions": {
 		"checkJs": true,
 		"noEmit": true,
+
+		"strict": true,
+		"noUnusedLocals": true,
+		"forceConsistentCasingInFileNames": true,
 	}
 }
