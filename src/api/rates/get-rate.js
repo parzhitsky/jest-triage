@@ -3,7 +3,9 @@ const rates = require("./rates");
 const createQuery = require("./create-query");
 const createUrl = require("./create-url");
 
-/** @typedef {Record<string, number>} RateData */
+/** @typedef {{ [query: string]: number; }} RateDataOK */
+/** @typedef {{ status: number; error: string; }} RateDataError */
+/** @typedef {RateDataOK | RateDataError} RateData */
 void 0;
 
 /** @private */
@@ -27,6 +29,9 @@ async function getRate(currency) {
 	
 				/** @type {RateData} */
 				const data = await response.json();
+
+				if ("error" in data)
+					throw new Error(`(${ data.status }) ${ data.error }`);
 	
 				rate = data[query];
 			}
