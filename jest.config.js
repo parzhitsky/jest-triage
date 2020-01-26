@@ -1,4 +1,6 @@
 module.exports = {
+	preset: "ts-jest",
+	testEnvironment: "node",
 	verbose: true,
 	rootDir: ".",
 	roots: [
@@ -6,6 +8,7 @@ module.exports = {
 	],
 	testMatch: [
 		"**/*.spec.js",
+		"**/*.spec.tsx",
 	],
 	setupFiles: [
 		"<rootDir>/src/.setup-tests.js",
