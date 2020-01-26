@@ -12,6 +12,9 @@ const API_KEY = "b9f349888827111f4719";
  */
 module.exports =
 function createUrl(query) {
+	if (!query)
+		throw new Error("`query` cannot be empty");
+
 	return format({
 		protocol: "https",
 		hostname: "free.currconv.com",
