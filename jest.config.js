@@ -1,6 +1,5 @@
 module.exports = {
 	verbose: true,
-	errorOnDeprecated: true,
 	rootDir: ".",
 	roots: [
 		"<rootDir>/src",
@@ -11,5 +10,7 @@ module.exports = {
 	setupFiles: [
 		"<rootDir>/src/.setup-tests.js",
 	],
+	restoreMocks: true,
+	errorOnDeprecated: true,
 	cacheDirectory: "<rootDir>/.cache/jest",
 };
