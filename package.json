@@ -5,7 +5,8 @@
   "main": "src/index.js",
   "private": true,
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "npm test"
   },
   "repository": "github:parzhitsky/jest-enzyme-webpack-triage",
   "author": "Dima Parzhitsky <parzhitsky@gmail.com>",
