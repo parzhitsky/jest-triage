@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": "github:parzhitsky/jest-enzyme-webpack-triage",
   "author": "Dima Parzhitsky <parzhitsky@gmail.com>",
