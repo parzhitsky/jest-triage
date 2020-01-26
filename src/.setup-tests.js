@@ -1,1 +1,1 @@
-module.exports = null;
+require("whatwg-fetch");
