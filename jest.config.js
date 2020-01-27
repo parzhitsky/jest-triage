@@ -19,6 +19,6 @@ module.exports = {
 	],
 	restoreMocks: true,
 	errorOnDeprecated: true,
-	snapshotResolver: "<rootDir>/src/.resolve-snapshots.js",
+	snapshotResolver: "<rootDir>/src/.snapshot-resolver.js",
 	cacheDirectory: "<rootDir>/.cache/jest",
 };

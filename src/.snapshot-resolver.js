@@ -9,7 +9,7 @@ module.exports = {
 	},
 
 	/**
-	 * @param {string} snapPath Path to snapshot file, relative to the current file (e.g., "components/article.snap.tsx")
+	 * @param {string} snapPath Path to snapshot file, relative to the current file (e.g., "components/article.snap.spec.tsx")
 	 * @param {string} snapshotExtension Snapshot extension, including leading dot (e.g., ".snap")
 	 * @returns {string}
 	 */
