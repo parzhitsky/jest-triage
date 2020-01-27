@@ -1,4 +1,4 @@
-const createUrl = require("./create-url");
+import createUrl from "./create-url";
 
 it("creates url to API, based on the supplied query", () => {
 	expect(createUrl("USD_UAH")).toEqual(

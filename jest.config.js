@@ -8,7 +8,7 @@ module.exports = {
 	],
 	testMatch: [
 		"**/*.spec.js",
-		"**/*.spec.tsx",
+		"**/*.spec.ts?(x)",
 		"!**/*.snap.spec.tsx",
 	],
 	transform: {

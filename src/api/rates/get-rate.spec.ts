@@ -1,14 +1,12 @@
-const getRate = require("./get-rate");
+import getRate from "./get-rate";
 
 /** @private */
 const fetch = jest.fn(async () => ({
 	ok: true,
-	// using Object() to tell TypeScript to shut up.
-	// With *.js(x?) files, it can be annoying sometimes.
-	json: async () => (Object({
+	json: async () => ({
 		"USD_UAH": 42,
 		"USD_EUR": 17,
-	})),
+	} as object),
 }));
 
 // @ts-ignore
