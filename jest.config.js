@@ -15,7 +15,7 @@ module.exports = {
 		"\\.tsx?$": "ts-jest",
 	},
 	setupFiles: [
-		"<rootDir>/src/.setup-tests.js",
+		"<rootDir>/src/.setup-tests.ts",
 	],
 	restoreMocks: true,
 	errorOnDeprecated: true,
