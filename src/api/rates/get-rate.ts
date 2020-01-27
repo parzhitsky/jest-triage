@@ -23,6 +23,9 @@ type RateData =
 /** @private */
 const DEFAULT_RATE = 1;
 
+/** @private */
+const DEFAULT_RATE_PRINTABLE = DEFAULT_RATE.toFixed(2);
+
 export default async function getRate(currency: string): Promise<number> {
 	if (currency in rates === false) {
 		let rate = DEFAULT_RATE;
@@ -42,7 +45,7 @@ export default async function getRate(currency: string): Promise<number> {
 			}
 
 			catch (error) {
-				console.warn(`Fallback rate of "${ currency }" to 1.00 due to error: ${ error }`);
+				console.warn(`Fallback rate of "${ currency }" to ${ DEFAULT_RATE_PRINTABLE } due to error: ${ error }`);
 			}
 		}
 
