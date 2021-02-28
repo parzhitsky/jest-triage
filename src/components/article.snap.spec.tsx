@@ -11,7 +11,7 @@ exports[`<Article title="Lorem ipsum" /> renders "Lorem ipsum" in <h3> 1`] = `
 </article>
 `;
 
-exports[`<Article title="Lorem ipsum" /> renders "Lorem ipsum" in <h3> and "dolor sit amet" in <p> 1`] = `
+exports[`<Article title="Lorem ipsum">dolor sit amet</Article> renders "Lorem ipsum" in <h3> and "dolor sit amet" in <p> 1`] = `
 <article>
   <header>
     <h3>

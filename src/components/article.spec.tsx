@@ -11,7 +11,9 @@ describe('<Article title="Lorem ipsum" />', () => {
 
 		expect(tree.toJSON()).toMatchSnapshot();
 	});
+});
 
+describe('<Article title="Lorem ipsum">dolor sit amet</Article>', () => {
 	it('renders "Lorem ipsum" in <h3> and "dolor sit amet" in <p>', () => {
 		const tree = create(
 			<Article title="Lorem ipsum">dolor sit amet</Article>
